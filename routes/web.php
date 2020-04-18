@@ -11,6 +11,15 @@
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('covid-19', function () {
+    return view('covid');
+});
+
+Route::get('contacto', function () {
+    return view('contacto');
 });
